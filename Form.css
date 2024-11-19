@@ -1,0 +1,12 @@
+form{
+    width:50%;
+    height: 400px;
+    margin-left:25% !important;
+    padding-left: 50px !important;
+    padding-top: 40px !important;
+    margin-top: 30px;
+    /* border: 1px solid black; */
+    /* border-radius:32px; */
+    /* x-offset y-offset blur spread color */
+    /* box-shadow: 2px 2px 3px 2px black; */
+}
