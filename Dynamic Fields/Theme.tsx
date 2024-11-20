@@ -12,6 +12,7 @@ type ThemeContextType = {
     secondary:{
         main: string
         text: string
+        card: string
     }
 }
 const ThemeContext = React.createContext({} as ThemeContextType)
