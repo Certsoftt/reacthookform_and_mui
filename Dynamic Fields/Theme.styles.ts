@@ -5,6 +5,7 @@ export const ThemeStyle = {
     },
     secondary:{
         main: "#000000",
-        text: "#ffffff"
+        text: "#ffffff",
+        card: "#282c34"
     }
 }
