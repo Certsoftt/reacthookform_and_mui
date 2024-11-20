@@ -1,12 +1,73 @@
+body, main{
+    background: #e2c5c5 !important
+}
+
 form{
-    width:50%;
-    height: 400px;
-    margin-left:25% !important;
-    padding-left: 50px !important;
+    height: auto;
     padding-top: 40px !important;
     margin-top: 30px;
-    /* border: 1px solid black; */
-    /* border-radius:32px; */
-    /* x-offset y-offset blur spread color */
-    /* box-shadow: 2px 2px 3px 2px black; */
+}
+h4{
+    font-size: 18px !important;
+}
+h6, span{
+    font-size: 16px !important;
+}
+@media (min-width: 1024px){
+    form{
+        width: 50%;
+        margin-left: 25% !important;
+    }
+}
+@media (min-width: 425px) and (max-width: 768px){
+    form{
+        width: 80%;
+        margin-left: 10% !important;
+    }
+}
+@media (min-width: 376px) and (max-width: 425px){
+    form{
+        width: 90%;
+        margin-left: 5% !important;
+    }
+    form div div div div p{
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+    
+    form div section{
+        width: 68%;
+        margin-left: 5% !important;
+    }
+}
+@media (min-width: 320px) and (max-width: 375x){
+    form{
+        width: 90%;
+        margin-left: 5% !important;
+    }
+    form div div div div p{
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+    form div section{
+        width: 68%;
+        margin-left: 5% !important;
+    }
+}
+@media (min-width: 0) and (max-width: 320px){
+    form{
+        width: 90%;
+        margin-left: 5% !important;
+    }
+    form div div div div p{
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+    form div section{
+        width: 68%;
+        margin-left: 5% !important;
+    }
 }
