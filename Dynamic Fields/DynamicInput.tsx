@@ -11,6 +11,7 @@ import {useForm, FieldErrors, useFieldArray} from 'react-hook-form'
 import {DevTool} from "@hookform/devtools"
 import {Visibility, VisibilityOff} from "@mui/icons-material"
 import { useTheme } from './Theme'
+import {toast} from 'react-toastify'
 
 export type FormValues = {
   fullname:string
@@ -109,7 +110,10 @@ const DynamicInput = () => {
   })
   const {errors, isDirty, isSubmitting, isValid} = formState
   const onSub = (data:FormValues)=>{
-    console.log(data)
+    // console.log(data)
+    toast.error("Form Data Submitted", {
+      position: "bottom-center"
+    })
   }
   const onError = (errors: FieldErrors<FormValues>)=>{
     console.log(errors)
